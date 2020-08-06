@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo 'link ~/.bin'
-ln -s "$(pwd)/.bin" ~/.bin
+ln -sf "$(pwd)/.bin" ~/.bin

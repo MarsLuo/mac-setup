@@ -3,10 +3,6 @@
 echo 'link .npmrc'
 ln -sf "$(pwd)/.npmrc" ~/.npmrc
 
-# https://github.com/tj/n
-echo 'Install N, Node Version Management'
-brew install n
-
 echo 'Install node'
 n 12
 n 10

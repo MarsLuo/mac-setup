@@ -1,16 +1,16 @@
 #!/bin/bash
 
 echo 'install brew'
-. brew/install.sh
+source brew/install.sh
 
 echo 'install zsh'
-. zsh/link.sh
+source zsh/link.sh
 
 echo 'install Node Version Management'
-. node/install.sh
+source node/install.sh
 
 echo 'config vimrc'
-. vim/link.sh
+source vim/link.sh
 
 echo 'add global shell'
-. bin/link.sh
+source bin/link.sh
